@@ -3,46 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Niketan Balar's iOS Apps</title>
+    <title>Niketan Balar's iOS App Portfolio</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px auto;
-            max-width: 600px;
-            padding: 0 20px;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            background: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
             text-align: center;
         }
         h1 {
             color: #333;
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+        p {
+            color: #555;
+            margin-bottom: 30px;
         }
         ul {
             list-style: none;
             padding: 0;
+            margin: 0;
         }
         li {
-            margin: 10px 0;
+            margin: 15px 0;
         }
         a {
             text-decoration: none;
+            font-size: 1.1rem;
             color: #0078D4;
+            background: #eaf4ff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: 0.3s ease;
         }
         a:hover {
-            text-decoration: underline;
+            background: #0078D4;
+            color: #fff;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+            a {
+                font-size: 1rem;
+                padding: 8px 15px;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>Niketan Balar's iOS Apps</h1>
-    <ul>
-        <li><a href="https://apps.apple.com/us/app/sell-buy-drive/id6444337972">Sell Buy Drive</a></li>
-        <li><a href="https://apps.apple.com/ca/app/idea/id1630887187">Idea!</a></li>
-        <li><a href="https://apps.apple.com/app/id1633041490">AZore Building Management App</a></li>
-        <li><a href="https://apps.apple.com/in/app/firstluxe/id1584775207">FirstLuxe</a></li>
-        <li><a href="https://apps.apple.com/us/app/cncrg-admin/id1589008766">CNCRG ADMIN</a></li>
-        <li><a href="https://apps.apple.com/in/app/mykase/id1585601707">myKase</a></li>
-        <li><a href="https://apps.apple.com/in/app/jeevjoy-career-app/id1615387974">JeevJoy - Career App</a></li>
-        <li><a href="https://appadvice.com/app/dropstations/1524946910">Dropstations</a></li>
-    </ul>
+    <div class="container">
+        <h1>Niketan Balar's iOS App Portfolio</h1>
+        <p>Explore the diverse range of mobile applications designed and developed by Niketan Balar. Click on an app name to visit its App Store page.</p>
+        <ul>
+            <li><a href="https://apps.apple.com/us/app/sell-buy-drive/id6444337972" target="_blank">Sell Buy Drive</a></li>
+            <li><a href="https://apps.apple.com/ca/app/idea/id1630887187" target="_blank">Idea!</a></li>
+            <li><a href="https://apps.apple.com/app/id1633041490" target="_blank">AZore Building Management App</a></li>
+            <li><a href="https://apps.apple.com/in/app/firstluxe/id1584775207" target="_blank">FirstLuxe</a></li>
+            <li><a href="https://apps.apple.com/us/app/cncrg-admin/id1589008766" target="_blank">CNCRG ADMIN</a></li>
+            <li><a href="https://apps.apple.com/in/app/mykase/id1585601707" target="_blank">myKase</a></li>
+            <li><a href="https://apps.apple.com/in/app/jeevjoy-career-app/id1615387974" target="_blank">JeevJoy - Career App</a></li>
+            <li><a href="https://appadvice.com/app/dropstations/1524946910" target="_blank">Dropstations</a></li>
+        </ul>
+    </div>
 </body>
 </html>
